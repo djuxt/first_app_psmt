@@ -9,14 +9,14 @@ import streamlit as st
 
  
 def main():
-    st.title('Mi Aplicación Básica en Streamlit')
+    st.title('Analisis de Cienda de datos')
     
     # Pedir datos al usuario
-    user_input = st.text_input('Ingresa algún dato:')
+    user_input = st.text_input('Ingrese su edad:')
     
     # Mostrar los datos ingresados
     if user_input:
-        st.write(f'Has ingresado: {user_input}')
+        st.write(f'Su edad es: {user_input}')
     
 if __name__ == '__main__':
     main()
