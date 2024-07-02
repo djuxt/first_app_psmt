@@ -10,6 +10,19 @@ Edit `/streamlit_app.py` to customize this app to your heart's desire :heart:.
 If you have any questions, checkout our [documentation](https://docs.streamlit.io) and [community
 forums](https://discuss.streamlit.io).
 
+def main():
+    st.title('Mi Aplicación Básica en Streamlit')
+    
+    # Pedir datos al usuario
+    user_input = st.text_input('Ingresa algún dato:')
+    
+    # Mostrar los datos ingresados
+    if user_input:
+        st.write(f'Has ingresado: {user_input}')
+    
+if __name__ == '__main__':
+    main()
+
 In the meantime, below is an example of what you can do with just a few lines of code:
 """
 
